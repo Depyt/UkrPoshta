@@ -1,0 +1,63 @@
+/* Первый блок */
+.header{
+    margin-top: 20px;
+    width: 0 auto;
+    height: 70px;
+    display: flex;
+    flex-direction: row;color: #000;
+}
+.txt-all{
+    font-family: Verdana, sans-serif;
+}
+.text-left{
+    
+    margin-left: 0px ;
+}
+.text-right{
+    margin-left: 750px;
+    margin-top: 3px;
+}
+.text-ukr{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.text-low{
+    font-size: 12px;
+}
+.number{
+    font-weight: bolder;  
+}
+.text-right-low{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.gps{
+  margin-bottom:20px;
+  margin-left:350px ;
+}
+/* Второй блок */
+.menu-button{
+   display: flex;
+   flex-direction: row;
+   margin-top: 20px;
+}
+.menu-btn-left{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 360px;
+}
+.href-all{
+    text-decoration: none;
+    color: rgb(133, 132, 132);
+}
+.menu-btn-right{
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    margin-left: 330px;
+}
+.btn-all a:hover{
+    color: rgb(97, 97, 97);
+}
