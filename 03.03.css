@@ -42,7 +42,7 @@
    margin-top: 20px;
 }
 .menu-btn-left{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -56,8 +56,52 @@
     display: flex;
     justify-content: space-between;
     width: 9%;
-    margin-left: 330px;
+    margin-left: 170px;
 }
 .btn-all a:hover{
     color: rgb(97, 97, 97);
+}
+
+/* Третий блок */
+
+.back-ground{
+    background-image: url("./psht.png");
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    width: 100%;
+}
+.back-ground > img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-fly{
+    font-size: 50px;
+    color: white;
+}
+.text-fly-low{
+    color: rgba(0, 0, 0, 0.699);
+    margin-top: 45px;
+    font-size: 17px;
+}
+.first-sloy{
+    z-index: -5;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.skrol{
+   
+}
+.two-sloy{
+    margin-top: -50px;
+    outline: none;
+    
+}
+.two-sloy-in{
+    outline: none;
+    width: 200px;
+    height: 45px;
 }
